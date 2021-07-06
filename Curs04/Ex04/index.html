@@ -8,7 +8,7 @@
     content="width=device-width, initial-scale=1.0"
   >
   <title>Document</title>
-
+  <!-- Done -->
   <link
     rel="stylesheet"
     href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css"
@@ -16,8 +16,30 @@
 </head>
 
 <body>
-  <!-- insert rest of code here
-   -->
+  <h1>Welcome to our newsletter</h1>
+  <p>
+    <img
+      src="images/newsletter.jpg"
+      alt="Newsletter"
+    >
+  </p>
+  <p>
+    Subscribe now for our best offers!
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod t empor i ncididunt ut
+    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    laboris nisi ut aliquip ex ea commodo consequat. Duis aute i rure dolor i n reprehenderit i n
+    voluptate velit esse cillum dolore eu f ugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt i n culpa qui officia deserunt mollit anim i d est l aborum.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod t empor i ncididunt ut
+    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    laboris nisi ut aliquip ex ea commodo consequat. Duis aute i rure dolor i n reprehenderit i n
+    voluptate velit esse cillum dolore eu f ugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt i n culpa qui officia deserunt mollit anim i d est l aborum.
+  </p>
   <p>
     <a
       href="/"
@@ -36,9 +58,7 @@
       title="Contact"
     >Contact</a>
   </p>
-
   <h2>Newsletter Form</h2>
-
   <form>
     <fieldset>
       <legend>Subscribe:</legend>
@@ -52,7 +72,6 @@
         value="male"
         checked
       >
-
       <label for="female">Ms</label>
       <input
         type="radio"
@@ -60,7 +79,6 @@
         id="female"
         value="female"
       >
-
       <label for="na">Unspecified</label>
       <input
         type="radio"
@@ -68,15 +86,51 @@
         id="na"
         value="na"
       > <br> <br>
-
-
+      <label for="name">*Name:</label>
+      <input
+        type="name"
+        name="name"
+        id="name"
+        maxlength="30"
+        minlength="5"
+        placeholder="Name"
+        required
+      >
+      <label for="surname">*Surname:</label>
+      <input
+        required
+        type="surname"
+        name="surname"
+        id="surname"
+        maxlength="30"
+        minlength="5"
+        placeholder="Surname"
+        required
+      > <br> <br>
+      <label for="email">*Email:</label>
+      <input
+        required
+        type="email"
+        name="email"
+        id="email"
+        maxlength="30"
+        minlength="5"
+        placeholder="Email"
+        required
+      > <br> <br>
       <input
         type="checkbox"
         name="subscribe"
         id="subscribe"
       >
-      <label for="consent">Agree to this and<i> we will send you emails.</i> </label> <br>
-
+      <label for="subscribe">Agree to this and<i>we will send you emails</i> </label> <br>
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+      >
+      <label for="gdpr-consent">GDPR generic consent? </label>
+      <br> <br>
       <button
         type="submit"
         title="subscribe"
@@ -85,9 +139,32 @@
       >Subscribe</button>
     </fieldset>
   </form>
-
-
-
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod t empor i ncididunt ut
+    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    laboris nisi ut aliquip ex ea commodo consequat. Duis aute i rure dolor i n reprehenderit i n
+    voluptate velit esse cillum dolore eu f ugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt i n culpa qui officia deserunt mollit anim i d est l aborum.
+  </p>
+  <p>
+    <a
+      href="/"
+      title="Privacy"
+    >Privacy</a>
+    <a
+      href="/"
+      title="GDPR"
+    >GDPR</a>
+    <a
+      href="/"
+      title="Customer Service"
+    >Customer Service</a>
+    <a
+      href="/"
+      title="Contact"
+    >Contact</a>
+  </p>
+  <br>
 
   <div
     class="pixeltab-host"
