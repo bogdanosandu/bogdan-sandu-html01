@@ -7,8 +7,8 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
-  <title>Document</title>
-
+  <title>New Address</title>
+  <!-- Done -->
   <link
     rel="stylesheet"
     href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css"
@@ -16,6 +16,190 @@
 </head>
 
 <body>
+  <h1>New Address</h1>
+  <p>
+    <img
+      src="images/new_address.jpg"
+      alt="new address"
+    >
+  </p>
+  <p>
+    <b>Please provide a valid address</b>, otherwise we will not be able to send your stuff.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  <h2>Useful links</h2>
+
+  <p>
+  <ul>
+    <li>
+      <a
+        href="https://www.google.com/maps"
+        target="_blank"
+        rel="noopener noreferrer"
+      >https://www.google.com/maps</a>
+    </li>
+    <li>
+      <a
+        href="https://www.coduripostale.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >https://www.coduripostale.com</a>
+    </li>
+  </ul>
+  </p>
+  <h2>Address Form</h2>
+  <form>
+    <fieldset>
+      <legend>Address Information:</legend>
+      <label>Title:</label>
+      <label for="male">Mr</label>
+      <input
+        type="radio"
+        name="gender"
+        id="male"
+        value="male"
+        checked
+      >
+      <label for="female">Ms</label>
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+      >
+      <label for="na">Unspecified</label>
+      <input
+        type="radio"
+        name="gender"
+        id="na"
+        value="na"
+      > <br> <br>
+      <label for="name">*Name:</label>
+      <input
+        type="name"
+        name="name"
+        id="name"
+        maxlength="30"
+        minlength="5"
+        placeholder="Name"
+        required
+      > <br> <br>
+      <label for="surname">*Surname:</label>
+      <input
+        required
+        type="surname"
+        name="surname"
+        id="surname"
+        maxlength="30"
+        minlength="5"
+        placeholder="Surname"
+        required
+      > <br> <br>
+      <label for="phone">*Phone:</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        maxlength="30"
+        minlength="5"
+        placeholder="Phone"
+        required
+      > <br> <br>
+      <label for="address1">*Address Line 1:</label>
+      <input
+        required
+        type="address1"
+        name="address1"
+        id="address1"
+        maxlength="30"
+        minlength="5"
+        placeholder="Address Line 1"
+        required
+      > <br> <br>
+      <label for="address2">*Address Line 2:</label>
+      <input
+        required
+        type="address2"
+        name="address2"
+        id="address2"
+        maxlength="30"
+        minlength="5"
+        placeholder="Address Line 2"
+        required
+      > <br> <br>
+      <label for="city">*City:</label>
+      <input
+        required
+        type="city"
+        name="city"
+        id="city"
+        maxlength="30"
+        minlength="5"
+        placeholder="City"
+        required
+      > <br> <br>
+      <label for="state">*State:</label>
+      <select
+        name="state"
+        name="state"
+        id="state"
+        required
+      >
+        <option value="state">--State--</option>
+        <option value="alabama">Alabama</option>
+        <option value="arkansas">Arkansas</option>
+        <option value="northDakota">North Dakota</option>
+        <option value="newYork">New York</option>
+        <option value="boston">Boston</option>
+      </select>
+
+
+      <br><br>
+      <label for="postcode">*Postcode:</label>
+      <input
+        required
+        type="postcode"
+        name="postcode"
+        id="postcode"
+        maxlength="30"
+        minlength="5"
+        placeholder="Postcode"
+        required
+      > <br><br>
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+      >
+      <label for="gdpr-consent">GDPR generic consent? </label>
+      <br> <br>
+      <button
+        type="submit"
+        title="subscribe"
+        id="submit"
+        name="submit"
+      >Create Account</button>
+      <button
+        type="reset"
+        name="reset"
+        id="reset"
+      >Reset</button>
+    </fieldset>
+  </form>
+  <br><br><br>
 
 
   <div

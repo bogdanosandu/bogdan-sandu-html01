@@ -16,8 +16,374 @@
 </head>
 
 <body>
+  <p>
+    <a
+      href="#"
+      title="Home"
+    >Home</a> *
+    <a
+      href="#"
+      title="Place Order"
+    ><b>Place Order</b></a> *
+    <a
+      href="#"
+      title="Customer Service"
+    >Customer Service</a> *
+    <a
+      href="#"
+      title="Contact"
+    >Contact</a>
+  </p>
+  <h1>Place Order</h1>
+  <p>
+    This is the <b>guest checkout</b>, thank you for your order!
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod t empor i ncididunt ut
+    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    laboris nisi ut aliquip ex ea commodo consequat. Duis aute i rure dolor i n reprehenderit i n
+    voluptate velit esse cillum dolore eu f ugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt i n culpa qui officia deserunt mollit anim i d est l aborum.
+  </p>
+  <h2>Products</h2>
 
 
+  <p>
+    <img
+      src="images/mouse.jpg"
+      alt="Mouse"
+    >
+    <a
+      href="#"
+      title="Sterge"
+    >Sterge</a>
+    <a
+      href="#"
+      title="Editeaza"
+    >Editeaza</a>
+  </p>
+  <hr>
+  <p>
+    <img
+      src="images/extension_chord.jpg"
+      alt="extension_chord"
+    >
+    <a
+      href="#"
+      title="Sterge"
+    >Sterge</a>
+    <a
+      href="#"
+      title="Editeaza"
+    >Editeaza</a>
+  </p>
+  <hr>
+  <p>
+    <img
+      src="images/phone.jpg"
+      alt="phone"
+    >
+    <a
+      href="#"
+      title="Sterge"
+    >Sterge</a>
+    <a
+      href="#"
+      title="Editeaza"
+    >Editeaza</a>
+  </p>
+  <hr>
+  <h2>Order Now</h2>
+  <p>
+    On our website <i>no account is needed</i>.
+  </p>
+  <p>
+  <ol>
+    <li>
+      First we need some i nfo about yourself. <b>D on’t forget to provide a phone</b>.
+    </li>
+    <li>
+      Then we need your r eal shipping address.
+    </li>
+    <li>
+      Finally, your credit card i nformation.
+    </li>
+  </ol>
+  </p>
+  <hr>
+  <form>
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label>Title:</label>
+      <label for="male">Mr</label>
+      <input
+        type="radio"
+        name="gender"
+        id="male"
+        value="male"
+        checked
+      >
+      <label for="female">Ms</label>
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+      >
+      <label for="na">Unspecified</label>
+      <input
+        type="radio"
+        name="gender"
+        id="na"
+        value="na"
+      > <br> <br>
+      <label for="name">*Name:</label>
+      <input
+        type="name"
+        name="name"
+        id="name"
+        maxlength="30"
+        minlength="5"
+        placeholder="Name"
+        required
+      > <br> <br>
+      <label for="surname">*Surname:</label>
+      <input
+        required
+        type="surname"
+        name="surname"
+        id="surname"
+        maxlength="30"
+        minlength="5"
+        placeholder="Surname"
+        required
+      > <br> <br>
+
+      <label for="email">*Email</label>
+      <input
+        required
+        type="email"
+        name="email"
+        id="email"
+        maxlength="30"
+        minlength="5"
+        placeholder="Email"
+        required
+      > <br> <br>
+      <label for="phone">*Phone:</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        maxlength="30"
+        minlength="5"
+        placeholder="Phone"
+        required
+      > <br> <br>
+    </fieldset>
+  </form>
+  <form>
+    <fieldset>
+      <legend>Address</legend>
+      <label for="address1">*Address Line 1:</label>
+      <input
+        required
+        type="address1"
+        name="address1"
+        id="address1"
+        maxlength="30"
+        minlength="5"
+        placeholder="Address Line 1"
+        required
+      > <br> <br>
+      <label for="address2">*Address Line 2:</label>
+      <input
+        required
+        type="address2"
+        name="address2"
+        id="address2"
+        maxlength="30"
+        minlength="5"
+        placeholder="Address Line 2"
+        required
+      > <br> <br>
+      <label for="city">*City:</label>
+      <input
+        required
+        type="city"
+        name="city"
+        id="city"
+        maxlength="30"
+        minlength="5"
+        placeholder="City"
+        required
+      > <br> <br>
+      <label for="state">*State:</label>
+      <select
+        name="state"
+        name="state"
+        id="state"
+        required
+      >
+        <option value="state">--State--</option>
+        <option value="alabama">Alabama</option>
+        <option value="arkansas">Arkansas</option>
+        <option value="northDakota">North Dakota</option>
+        <option value="newYork">New York</option>
+        <option value="boston">Boston</option>
+      </select>
+
+
+      <br><br>
+      <label for="postcode">*Postcode:</label>
+      <input
+        required
+        type="postcode"
+        name="postcode"
+        id="postcode"
+        maxlength="30"
+        minlength="5"
+        placeholder="Postcode"
+        required
+      > <br><br>
+    </fieldset>
+  </form>
+  <form>
+    <fieldset>
+      <legend>Card Information</legend>
+      <label for="card-number">*Card number</label>
+      <input
+        type="card-number"
+        name="card-number"
+        id="card-number"
+        maxlength="30"
+        minlength="5"
+        placeholder="Card Number"
+        required
+      > <br> <br>
+      <label for="card-name">*Name on card:</label>
+      <input
+        required
+        type="card-name"
+        name="card-name"
+        id="card-name"
+        maxlength="30"
+        minlength="5"
+        placeholder="Name on card"
+        required
+      > <br> <br>
+      <label for="card-expiry-month">*Expiry Month</label>
+      <select
+        name="card-expiry-month"
+        name="card-expiry-month"
+        id="card-expiry-month"
+        required
+      >
+        <option value="card-expiry-month"> January</option>
+        <option value="alabama">February</option>
+        <option value="arkansas">March</option>
+        <option value="northDakota">April</option>
+        <option value="newYork">May</option>
+        <option value="boston">June</option>
+      </select>
+      <label for="card-expiry-year">*Expiry Year</label>
+      <select
+        name="card-expiry-year"
+        name="card-expiry-year"
+        id="card-expiry-year"
+        required
+      >
+        <option value="card-expiry-year"> 2019</option>
+        <option value="alabama">2021</option>
+        <option value="arkansas">2020</option>
+        <option value="northDakota">2021</option>
+        <option value="newYork">2022</option>
+        <option value="boston">2023</option>
+      </select>
+
+      <br><br>
+      <label for="card-cvv">*CVV</label>
+      <input
+        required
+        type="card-cvv"
+        name="card-cvv"
+        id="card-cvv"
+        maxlength="30"
+        minlength="5"
+        placeholder="CVV"
+        required
+      > <br><br>
+      <i>We do not store credit card information!</i>
+    </fieldset>
+  </form>
+  <form>
+    <fieldset>
+      <legend>Form Controls</legend>
+      <input
+        type="checkbox"
+        name="terms"
+        id="terms"
+        required
+      >
+      <label for="terms">*You are required to agree to the <a
+          href="https://www.google.com/"
+          title="terms and conditions"
+        >terms and conditions</a>
+      </label>
+      <br>
+      <input
+        type="checkbox"
+        name="subscribe"
+        id="subscribe"
+      >
+      <label for="subscribe">Can we send you emails?</i> </label>
+      <br>
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+      >
+      <label for="gdpr-consent">GDPR generic consent? </label>
+      <br> <br>
+      <button
+        type="submit"
+        title="subscribe"
+        id="submit"
+        name="submit"
+      >PLACE OREDER</button>
+      <button
+        type="reset"
+        name="reset"
+        id="reset"
+      >Reset</button>
+    </fieldset>
+  </form>
+  <p>
+    Lorem i psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod t empor i ncididunt ut
+    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    laboris nisi ut aliquip ex ea commodo consequat. Duis aute i rure dolor i n reprehenderit i n
+    voluptate velit esse cillum dolore eu f ugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt i n culpa qui officia deserunt mollit anim i d est l aborum.
+  </p>
+  <p>
+    <a
+      href="https://www.google.com/"
+      title="https://www.google.com"
+    >Home</a>
+    <a
+      href="https://www.google.com/"
+      title="https://www.google.com"
+    ><b>Place Order</b></a>
+    <a
+      href="https://www.google.com/"
+      title="https://www.google.com"
+    >Customer Service</a>
+    <a
+      href="https://www.google.com/"
+      title="https://www.google.com"
+    >Contact</a>
+  </p>
+  <br><br><br><br><br>
   <div
     class="pixeltab-host"
     id="html01-04-07"
