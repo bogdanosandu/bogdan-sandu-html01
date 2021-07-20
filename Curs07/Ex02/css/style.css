@@ -10,3 +10,31 @@ a[href^="http://"]
 {
   color: red;
 }
+
+a {
+  color: green;
+}
+
+.line {
+  text-decoration: underline;
+}
+
+p .line {
+  color: gray;
+}
+
+b {
+  text-decoration: underline;
+  color: purple;
+}
+.odd .line {
+  color: blue;
+}
+
+.odd i {
+  text-decoration: underline;
+}
+
+a[href*='.com'] {
+  color: black;
+}

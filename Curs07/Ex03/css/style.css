@@ -16,10 +16,14 @@ body {
 
 .box-2 {
   background-color: brown;
+  color: white;
+  border: grey;
 }
 
 .box-3 {
   background-color: bisque;
+  color: red;
+  border: 1px solid blue;
 }
 
 .box-1 {
