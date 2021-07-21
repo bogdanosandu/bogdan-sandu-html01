@@ -16,7 +16,11 @@
   padding-left: 13px;
 }
 .container {
-  padding: 15px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border: 3px solid green;
 }
 
