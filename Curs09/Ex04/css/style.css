@@ -6,6 +6,7 @@
 
 .box-red {
   background-color: red;
+  rotate: (-30deg);
 }
 
 .box-green {
@@ -24,3 +25,6 @@
   background-color: yellow;
 }
 
+.box-purple {
+  transform: translate(100px, 0) rotate(50deg);
+}
