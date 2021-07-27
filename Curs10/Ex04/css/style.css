@@ -47,3 +47,15 @@ ol + h2 {
 .random ~ p {
   padding: 10px 12px;
 }
+
+.last-list ~ ul a {
+  color: yellow;
+}
+
+.my-list > li {
+  text-decoration: underline;
+}
+
+.nested ul > li > ul > li > a {
+  padding: 5px;
+}
