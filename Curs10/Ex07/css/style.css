@@ -19,3 +19,27 @@
   background-color: red;
   border-radius: 50%;
 }
+
+.my-second-list a {
+  display: block;
+}
+
+.my-second-list a::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+  display: inline-block;
+  background-color: pink;
+}
+
+.my-second-list a::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  margin-left: 8px;
+  display: inline-block;
+  background-color: blue;
+  transform: rotate(45deg);
+}

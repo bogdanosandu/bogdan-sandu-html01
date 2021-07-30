@@ -1,10 +1,3 @@
-/* add code here */
-/* #container .header h1 {
-  color: green;
-  text-decoration: underline solid green;
-  padding: 5px;
-} */
-
 .header.header h1 {
   color: green;
   text-decoration: underline solid green;
@@ -16,8 +9,6 @@
   font-style: italic;
   color: purple;
 }
-
-/* add code here */
 
 h1 {
   color: red;

@@ -9,3 +9,15 @@ a {
 ul {
   list-style-type: none;
 }
+
+.para-short {
+  width: 321px;
+  margin: 10px auto;
+  border: 1px solid black;
+  padding: 15px;
+  text-align: center;
+}
+.para-short p {
+  border: 1px solid red;
+  width: inherit;
+}
